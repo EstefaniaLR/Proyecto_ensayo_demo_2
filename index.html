@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<!-- El head es el encabezado. -->
+<head>
+	<title>Hola mundo</title>
+	<!-- Etiqueta para los caracteres. -->
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+	<!-- Elemento semántico header. -->
+	<header>
+		<!-- h1 es un título. -->
+		<!-- Los títulos van hasta h6. -->
+		<!-- Y es como tener título y subtítulos -->
+		<h1>Esto es un título</h1>
+		<h2>Esto es un subtítulo</h2>
+		<!-- Ahora un párrafo. -->
+		<!-- Se escribe "lorem" y la tecla tabulador, y aparece todo ese texto. -->
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+		</p>
+	</header>
+
+	<!-- Elemento semántico section. -->
+	<section>	
+		<!-- Incersión de imágenes. -->
+		<!-- Notar que se van a imprimir una seguida de la otra porque img es una etiqueta inline. -->
+		<!-- NOTA: El enter en html no sirve. -->
+		<img src="imgs/i1.jpg" alt=""/>
+		<img src="imgs/i2.png" alt="i2"/>
+		<img src="imgs/i3.jpg" alt=""/><img src="imgs/i4.jpg" alt=""/>	
+		<img src="imgs/i5.jpg" alt=""/>
+		<img src="imgs/i6.png" alt=""/>
+		<!-- Ahora más imágenes, pero se va a colocar una etiqueta <hr> que es en bloque, entonces las imágenes con esta etiqueta van a separarse por una línea. -->
+		<!-- La imagen ste que es la 7, se va a imprimir justo al lado de la 6, porque el comentario no me hace salto de línea. -->
+		<img src="imgs/i7.jpg" alt=""/>
+		<img src="imgs/i8.jpg" alt=""/><hr/>
+		<img src="imgs/i9.jpg" alt=""/>
+		<!-- Se va a crear un enlace. -->
+		<!-- href es un atributo que guarda la ruta del archivo al que queremos ir. -->
+		<br/> <!-- Este br no es necesario, porque lo que sigue es una lista, que es tipo block, entonces va a imprimir debajo. Es decir, se imprime exactamente igual se coloque o no este br. -->
+		<!-- Ahora vamos a crear una lista ordenada. -->
+		<ol>
+			<li>Opción 1</li>
+			<li>Opción 2</li>
+		</ol>
+		<!-- Ahora una lista no ordenada. -->
+		<!-- Notar que al poner esta nueva lista, no se necesitó poner una separación con br o hr por ejm. Resulta que las ol y ul son tipo block. -->
+		<ul>
+			<li>Opción uno</li>
+			<li>Opción dos</li>
+		</ul>
+		<!-- Otra lista con el atributo start, que dice desde qué número empieza. -->
+		<ol start="4">
+			<li>Opción 4</li>
+			<li>Opción 5</li>
+		</ol>
+		<br/>
+	</section>
+
+	<!-- Elemento semántico footer, dentro del cual se pondrá un nav. -->
+	<footer>
+		<nav>
+			<a href="pagina2.html">Ir a otra página</a>
+		</nav>
+	</footer>		
+
+</body>
+
+</html>
